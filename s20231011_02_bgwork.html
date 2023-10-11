@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bg_test</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .nav {
+            width: 100%;
+            height: 5vh;
+            top: 0;
+            background-color: gray;
+            /* border-radius: 10px; */
+            /* text-align: center; */
+            position: fixed;
+
+        }
+
+        h1 {
+            color: #fff;
+
+        }
+
+        a {
+            display: inline-block;
+            color: black;
+            /* border: 1px solid black; */
+            margin-left: 30px;
+            margin-top: 10px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .container1 {
+            width: 80%;
+            height: 95vh;
+            margin: auto;
+            background-color: lightblue;
+            background-image: url(./images/05.jpg);
+            background-size: cover;
+            background-position: center center;
+            border-radius: 10px;
+            /* opacity: 0.8; */
+        }
+
+        img {
+            /* box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7); */
+            width: 95%;
+            padding: 0px 10px;
+
+        }
+
+        table,
+        tr,
+        td {
+            /* margin: auto; */
+            /* border: 1px solid black; */
+            border-collapse: collapse;
+            /* text-align: center; */
+            /* width: 80%; */
+        }
+
+        table {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+
+        }
+
+        td {
+            width: 33%;
+            color: #fff;
+            text-align: center;
+            padding: 0px 10px;
+            /* margin: auto; */
+        }
+
+        .container2 {
+            width: 80%;
+            height: 95vh;
+            margin: auto;
+            border-radius: 10px;
+            background-color: red;
+            background-image: url(./images/06.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+
+        }
+
+        iframe{
+            width: 100%;
+            height: 60%;
+            
+        }
+
+        h2 {
+            color: #fff;
+            text-align: center;
+            padding-top: 10px;
+            /* background-color: aqua; */
+        }
+
+        h3 {
+            text-shadow: 5px 5px 10px black;
+            padding-bottom: 20px;
+        }
+
+        .footer {
+            width: 80%;
+            height: 95vh;
+            margin: auto;
+            border-radius: 10px;
+            background-color: lightblue;
+            background-image: url(./images/07.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        #top {
+            position: fixed;
+            right: 30px;
+            bottom: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="nav">
+        <!-- <h1>網頁設計</h1> -->
+        <a href="#item1">images</a>
+        <a href="#item2">youtube</a>
+        <a href="#item3">google map</a>
+    </div>
+
+    <br>
+    <div id="item1"></div>
+    <div class="container1">
+        <!-- <h2>景點介紹</h2> -->
+        <table>
+            <tr>
+                <td>
+                    <h3>Lorem ipsum dolor sit </h3>
+                    <img src="./images/01.jpg" alt="" srcset="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam blanditiis sint iure
+                        officia, delectus magnam eveniet quos, distinctio et tempora natus tempore. Saepe aliquid
+                        ducimus voluptatem quae numquam non.</p>
+                </td>
+                <td>
+                    <h3>Lorem ipsum dolor sit </h3>
+                    <img src="./images/02.jpg" alt="" srcset="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam blanditiis sint iure
+                        officia, delectus magnam eveniet quos, distinctio et tempora natus tempore. Saepe aliquid
+                        ducimus voluptatem quae numquam non.</p>
+                </td>
+                <td>
+                    <h3>Lorem ipsum dolor sit </h3>
+                    <img src="./images/03.jpg" alt="" srcset="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam blanditiis sint iure
+                        officia, delectus magnam eveniet quos, distinctio et tempora natus tempore. Saepe aliquid
+                        ducimus voluptatem quae numquam non.</p>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <br>
+
+    <div id="item2"></div>
+    <div class="container2">
+        <!-- <h2>影片介紹</h2> -->
+        <table>
+            <tr>
+                <td>
+                    <iframe src="https://www.youtube.com/embed/v-y9ENZGo4A?si=tddGdE60v12AOQ1m"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </td>
+                <td>
+                    <h3>Lorem ipsum dolor sit </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam blanditiis sint iure
+                        officia, delectus magnam eveniet quos, distinctio et tempora natus tempore. Saepe aliquid
+                        ducimus voluptatem quae numquam non.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+    <div id="item3"></div>
+    <div class="footer">
+        <!-- <h2>地圖</h2> -->
+        <table>
+            <tr>
+                <td>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14457.920986364148!2d121.41203405!3d25.051706899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7c930fc7237%3A0xb976fe8e610eaa4f!2zU1RBUkJVQ0tTIOaYn-W3tOWFiyAo5rOw5bGx5piO5b-X6ZaA5biCKQ!5e0!3m2!1szh-TW!2stw!4v1696996095705!5m2!1szh-TW!2stw"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </td>
+                <td>
+                    <h3>Lorem ipsum dolor sit </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam blanditiis sint iure
+                        officia, delectus magnam eveniet quos, distinctio et tempora natus tempore. Saepe aliquid
+                        ducimus voluptatem quae numquam non.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <a href="#" id="top">top</a>
+
+
+</body>
+
+</html>
